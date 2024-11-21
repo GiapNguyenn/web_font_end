@@ -1,0 +1,106 @@
+body{ padding: 0; margin: 0;}
+:root {
+    --font-family1: 'SFU Angie Bold', sans-serif;
+    --font-colorMain : #007934;
+}
+.Menu {
+    display: flex;
+    height: 70px;
+    flex-shrink: 0;
+    background: #007934;
+    justify-content: space-between;
+}
+.heading_trai {
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+}
+ .Logo {
+    width: 100px;
+    height: 70px;
+ }
+.button_search {
+    margin-top: 15px;
+}
+form {
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+input {
+    width: 400px;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+button i {
+    color : rgb(93, 94, 95)
+}
+.heading_phai {
+    width: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.heading_phai .list_Menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.heading_phai .list_Menu li .a_menu {
+    color: white;
+    text-decoration: none;
+}
+.heading_phai .list_Menu li i {
+    font-size: 20px;
+}
+.the_slide {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+.carousel-inner img{
+    width: 1000px;
+    height: 500px;
+    border-radius: 0 0 20px 20px;
+}
+.thanpage {
+    text-align: center;
+}
+.thanpage .tieude1 {
+    display: flex;
+    margin-top: 40px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.thanpage .tieude1 img {
+    height: 30px;
+    vertical-align: middle;
+}
+.thanpage .tieude1 span{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--font-colorMain);
+    font-family: var(--font-family1);
+    line-height: 1;
+}
+
+
