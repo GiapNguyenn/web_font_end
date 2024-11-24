@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- =====phần đầu======= -->
+    <header>
+      <div class="container">
+        <div class="top-bar">
+          <span>
+            <i class="fas fa-phone-alt"></i>
+            Hotline:
+            <strong>0912 250 625</strong>
+          </span>
+          <span>
+            <i class="fas fa-map-marker-alt"></i>
+            Cây Xanh Haluta
+          </span>
+        </div>
+        <div class="navbar">
+          <img
+            alt="Haluta logo"
+            height="61"
+            src="./img/LOGO HALUTA-05 1.png"
+            width="90"
+          />
+          <div class="search-bar">
+            <input placeholder="Bạn cần tìm kiếm gì" type="text" />
+            <img
+              class="search-icon"
+              src="./icon/search-icon.svg"
+              alt="Search"
+            />
+          </div>
+          <div class="nav-links">
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">GIỚI THIỆU</a>
+            <a href="#">DỰ ÁN</a>
+            <a href="#">CÂY XANH</a>
+            <a href="#">BLOG TƯ VẤN</a>
+            <a href="#">LIÊN HỆ</a>
+            <div class="cart">
+              <a href="#">
+                <img class="cart-icon" src="./icon/shopping cart.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ========luu page đang đến========== -->
+    <div class="fui-basic-breadcrumb">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item">
+          <a href="#" class="breadcrumb-link">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L512 185V64c0-17.7-14.3-32-32-32H448c-17.7 0-32 14.3-32 32v36.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1h32v69.7c-.1 .9-.1 1.8-.1 2.8V472c0 22.1 17.9 40 40 40h16c1.2 0 2.4-.1 3.6-.2c1.5 .1 3 .2 4.5 .2H160h24c22.1 0 40-17.9 40-40V448 384c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v64 24c0 22.1 17.9 40 40 40h24 32.5c1.4 0 2.8 0 4.2-.1c1.1 .1 2.2 .1 3.3 .1h16c22.1 0 40-17.9 40-40V455.8c.3-2.6 .5-5.3 .5-8.1l-.7-160.2h32z"
+              ></path>
+            </svg>
+            Home
+          </a>
+        </li>
+        <li class="breadcrumb-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <a href="#" class="breadcrumb-link">Shop</a>
+        </li>
+        <li class="breadcrumb-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="M9.793 7.793a1 1 0 000 1.414L12.586 12l-2.793 2.793a1 1 0 101.414 1.414l3.5-3.5a1 1 0 000-1.414l-3.5-3.5a1 1 0 00-1.414 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+          <a href="#" class="breadcrumb-link">Page</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ============end============= -->
+    <!-- ==========Sản phẩm============== -->
+    <div class="container-2">
+      <div class="sidebar">
+        <h3>Bộ lọc</h3>
+        <div class="filter-columns">
+          <div>
+            <label>
+              <input type="checkbox" />
+              1 lít
+            </label>
+            <label>
+              <input type="checkbox" />
+              2 lít
+            </label>
+            <label>
+              <input type="checkbox" />
+              3 lít
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" />
+              4 lít
+            </label>
+            <label>
+              <input type="checkbox" />
+              5 lít
+            </label>
+            <label>
+              <input type="checkbox" />
+              6 lít
+            </label>
+          </div>
+        </div>
+        <h3>Mức giá</h3>
+        <div class="filter-columns">
+          <div>
+            <label>
+              <input type="checkbox" />
+              5 - 10 triệu
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" />
+              10 - 15 triệu
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>Cây sưu tầm</h1>
+        <div class="filter-bar">
+          <div>
+            <button>Ưu tiên xem</button>
+            <button>Nổi bật nhất</button>
+            <button>Giảm dần</button>
+            <button>Tăng dần</button>
+          </div>
+          <input placeholder="Tìm kiếm trong Cây sưu tầm" type="text" />
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img
+              alt="Cây Khế Giáng Long (Cây Sưu Tầm)"
+              height="200"
+              src="./img/anhtransanpham.png"
+              width="200"
+            />
+            <div class="info">
+              <div class="discount">GIẢM 30%</div>
+              <h3>Cây Khế Giáng Long (Cây Sưu Tầm)</h3>
+              <div class="price">
+                <span class="old-price"> 8.000.000 đ </span>
+                5.290.000 đ
+              </div>
+              <div class="rating">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                (1753)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====================pagination=================== -->
+    <div class="fui-roundedFull-pagination">
+      <ul class="pagination-list">
+        <li class="pagination-item btn-prev">
+          <a href="#" class="pagination-link">
+            <svg
+              width="6"
+              height="10"
+              viewBox="0 0 6 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.20711 0.792893C5.59763 1.18342 5.59763 1.81658 5.20711 2.20711L2.41421 5L5.20711 7.79289C5.59763 8.18342 5.59763 8.81658 5.20711 9.20711C4.81658 9.59763 4.18342 9.59763 3.79289 9.20711L0.292893 5.70711C-0.0976311 5.31658 -0.0976311 4.68342 0.292893 4.29289L3.79289 0.792893C4.18342 0.402369 4.81658 0.402369 5.20711 0.792893Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">1</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link selected"> 2 </a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">3</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">4</a>
+        </li>
+        <li class="pagination-item">
+          <a href="#" class="pagination-link">5</a>
+        </li>
+        <li class="pagination-item btn-next">
+          <a href="#" class="pagination-link">
+            <svg
+              width="6"
+              height="10"
+              viewBox="0 0 6 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.792893 0.792893C0.402369 1.18342 0.402369 1.81658 0.792893 2.20711L3.58579 5L0.792893 7.79289C0.402369 8.18342 0.402369 8.81658 0.792893 9.20711C1.18342 9.59763 1.81658 9.59763 2.20711 9.20711L5.70711 5.70711C6.09763 5.31658 6.09763 4.68342 5.70711 4.29289L2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792893 0.792893Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--=================Mô tả chân trang=====================-->
+    <div class="container-3">
+      <div class="title">Phong thủy cảnh quan sân vườn</div>
+      <div class="stars">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"> </i>
+      </div>
+      <div class="description">
+        Theo quan niệm của người Á Đông, phong thủy có ảnh hưởng đến mọi mặt của
+        đời sống con người. Với cảnh quan sân vườn cũng không ngoại lệ. Một
+        thiết kế đẹp thôi là chưa đủ mà cần phù hợp với phong thủy để đem lại
+        nguồn năng lượng tốt, tài lộc sinh sôi, vận mệnh thăng tiến.
+      </div>
+      <div class="image-container">
+        <img
+          alt="Beautiful garden landscape with a small bridge over a pond, surrounded by lush greenery and a traditional-style house in the background."
+          height="400"
+          src="https://storage.googleapis.com/a1aa/image/7ekeTbKvPOtNeJqtyLqMeN4wfCfpJtjGXX1a2p9GyNjbbT58E.jpg"
+          width="800"
+        />
+      </div>
+      <a class="button" href="#"> Xem thêm + </a>
+    </div>
+    <div class="floating-buttons">
+      <a href="#">
+        <i class="fas fa-arrow-up"> </i>
+      </a>
+      <a href="#">
+        <i class="fas fa-chart-line"> </i>
+      </a>
+    </div>
+    <!-- ================Text=============== -->
+    <section class="partners-section" aria-labelledby="partners-title">
+      <h2 id="partners-title" class="partners-heading">ĐỐI TÁC CỦA CÂY XANH HALUTA</h2>
+    </section>
+         <!-- ================Logo các hãng đối tác============= -->
+    <section class="partners-container" aria-label="Partner logos">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d65d4f3d409c72949187eb30f6ee991add0d29f73414d7a222bc394de4bda4a8?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="" class="logo-arrow" />
+      
+      <div class="logo-wrapper">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/241d89800b29c395b6e081f38ca5f818365f0ac5c232be4519387ff00d3fc485?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Partner logo" class="logo-image" />
+      </div>
+      
+      <div class="logo-wrapper-large">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f49e711eb385cefd2351fad825e0af9686ea97737649c01168791a1eac378fe?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Partner logo" class="logo-image-large" />
+      </div>
+      
+      <div class="logo-wrapper-medium">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8b442e5534e32b2f66eb899db982feeee07cae5f4edf1bd6976195e09a7e3cc?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Partner logo" class="logo-image-medium" />
+      </div>
+      
+      <div class="logo-wrapper-wide">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2c1a2877ec04d1f675ad5d7d068bcfef3af9a4a92986b0097678b513dd76ba94?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Partner logo" class="logo-image-wide" />
+      </div>
+      
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed0047e9d3386521412b8c58956137f32b0f05502a8790d2c7143e644f1465e6?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="" class="logo-arrow" />
+    </section>
+    </div>
+  </div>
+  </div>
+  <section class="features-container" aria-label="Store Features">
+  <div class="features-grid">
+    <img 
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/e19979759109f7315933dab9252cad2a853db904451e8da20f1d6b845c6441c9?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" 
+      alt="Quality Products Icon" 
+      class="feature-icon feature-icon-quality"
+    />
+    <h2 class="feature-title feature-title-quality">SẢN PHẨM CHẤT LƯỢNG</h2>
+    <div class="feature-divider" role="presentation"></div>
+
+    <img 
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5cd49dcc9ed70e5e1c3a71f343f465d1368badcf8ac2f88597fcd6f07696de7e?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" 
+      alt="Professional Service Icon" 
+      class="feature-icon"
+    />
+    <h2 class="feature-title feature-title-service">DỊCH VỤ CHUYÊN NGHIỆP</h2>
+    <div class="feature-divider" role="presentation"></div>
+
+    <img 
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/d5ad732fd200c4d781f394fbf75bf3fde8a1535b75b72477571af519539199e1?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" 
+      alt="Nationwide Shipping Icon" 
+      class="feature-icon"
+    />
+    <h2 class="feature-title feature-title-shipping">GIAO HÀNG TOÀN QUỐC</h2>
+    <div class="feature-divider" role="presentation"></div>
+
+    <img 
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/224ca433c11f454accf6e3060e44d9d6e9208927bff6967f73380f91918592f3?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" 
+      alt="Free Warranty Icon" 
+      class="feature-icon"
+    />
+    <h2 class="feature-title feature-title-warranty">MIỄN PHÍ BẢO HÀNH</h2>
+  </div>
+</section>
+<footer class="footer-container">
+  <section class="logo-section">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/84bb9976542ac06e52fad0e056f600c70b31ec51a6cfb5159ff489517c811e87?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Company Logo" class="company-logo" />
+    <h2 class="sales-hotline-title">HOTLINE BÁN HÀNG</h2>
+    <div class="phone-container">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d283f0236a26f7d0093a5827dadfd36f56404f5effa9072fe1a7ff2dd2ef4185?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Phone Icon" class="phone-icon" />
+      <a href="tel:0912250625" class="phone-number">03881659322</a>
+    </div>
+    <div class="support-info">
+      <p class="business-hours">( 08:00-17:00 tất cả các ngày trong tuần)</p>
+      <h2 class="customer-support-title">CHĂM SÓC KHÁCH HÀNG</h2>
+    </div>
+    <div class="support-phone">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/607e064993a9947b948b204333e8d5a3d2d1716b82c10da8c2110185041ad6cd?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Support Phone Icon" class="phone-icon" />
+      <a href="tel:0912250625" class="phone-number">0388169322</a>
+    </div>
+  </section>
+
+  <nav class="footer-section">
+    <h3 class="section-title">CHĂM SÓC KHÁCH HÀNG</h3>
+    <a href="#warranty" class="footer-link-first">Chính sách bảo hành</a>
+    <a href="#returns" class="footer-link">Chính sách đổi trả sản phẩm</a>
+    <a href="#faq" class="footer-link">Hỏi Đáp Mua Hàng Online</a>
+  </nav>
+
+  <nav class="footer-section">
+    <h3 class="section-title">CỬA HÀNG</h3>
+    <a href="#office-bins" class="footer-link-first">Thùng rác văn phòng</a>
+    <a href="#smart-bins" class="footer-link">Thùng rác thông minh</a>
+    <a href="#promotions" class="footer-link">Sản phẩm khuyến mại</a>
+  </nav>
+
+  <nav class="footer-section">
+    <h3 class="section-title">VỀ CHÚNG TÔI</h3>
+    <a href="#about" class="footer-link-first">Giới thiệu công ty</a>
+    <a href="#stores" class="footer-link">Hệ thống cửa hàng</a>
+    <a href="#careers" class="footer-link">Tuyển dụng</a>
+  </nav>
+
+  <section class="contact-section">
+    <h3 class="contact-title">LIÊN HỆ</h3>
+    <div class="address-container">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa1028ef4a7c7d7f677e4631327812b4474e4663229732db9c71a12835dad1ca?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Location Icon" class="contact-icon" />
+      <address class="address-text">
+        Khu phố phước mỹ tây, Thị Trấn phú thứ,
+        <br />
+        Phú yên
+      </address>
+    </div>
+    <div class="contact-info">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/413fe9d7a21884adfaf64ddf6629cbddc5b3971c1b181da8d064c236c0e55c7e?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Phone Icon" class="contact-icon" />
+      <a href="tel:0934878833">0388169322</a>
+    </div>
+    <div class="email-container">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3fdc4f2696cf7013244488c9779701024317e3826a676c6064faafc55c362aa5?placeholderIfAbsent=true&apiKey=b924c87d51e0474f85758c8284b3b886" alt="Email Icon" class="email-icon" />
+      <a href="mailto:contact@hempspahoian.com">12c8letuananh@gmail.com</a>
+    </div>
+  </section>
+</footer>
+
+  </body>
+</html>
